@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1490641513 source:/media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/main.cpp
+	"headers.h"
+
+1490719763 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/DFAMinimization.h
+
+1490714349 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/SubsetConstruction.h
+	<queue>
+	<stack>
+	<algorithm>
+	"ThompsonConstruction.h"
+
+1490715444 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/ThompsonConstruction.h
+	<iostream>
+	<fstream>
+	<vector>
+	<map>
+	<regex>
+	<set>
+
+1490716505 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/test_input.h
+
+1490718631 source:/media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/SubsetConstruction.cpp
+	"SubsetConstruction.h"
+	<iostream>
+
+1490717819 source:/media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/ThompsonConstruction.cpp
+	"ThompsonConstruction.h"
+
+1490636468 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_I/headers.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	<sstream>
+	<fstream>
+	"SubsetConstruction.h"
+	"DFAMinimization.h"
+	"test_input.h"
+
+1490641514 source:/media/salma/New Volume/College/rd_CSED/SecondTerm/Compiler/C++/Compiler_I/Compiler_I/main.cpp
+	"headers.h"
+
+1490636468 /media/salma/New Volume/College/rd_CSED/SecondTerm/Compiler/C++/Compiler_I/Compiler_I/headers.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	<sstream>
+	<fstream>
+	"SubsetConstruction.h"
+	"DFAMinimization.h"
+	"test_input.h"
+
+1492946226 /media/salma/New Volume/College/rd_CSED/SecondTerm/Compiler/C++/Compiler_I/Compiler_I/SubsetConstruction.h
+	<queue>
+	<stack>
+	<algorithm>
+	"ThompsonConstruction.h"
+
+1490715444 /media/salma/New Volume/College/rd_CSED/SecondTerm/Compiler/C++/Compiler_I/Compiler_I/ThompsonConstruction.h
+	<iostream>
+	<fstream>
+	<vector>
+	<map>
+	<regex>
+	<set>
+
+1490719764 /media/salma/New Volume/College/rd_CSED/SecondTerm/Compiler/C++/Compiler_I/Compiler_I/DFAMinimization.h
+
+1490716506 /media/salma/New Volume/College/rd_CSED/SecondTerm/Compiler/C++/Compiler_I/Compiler_I/test_input.h
+
