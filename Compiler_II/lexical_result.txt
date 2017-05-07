@@ -1,0 +1,21 @@
+int
+id
+;
+id
+assign
+num
+;
+if
+(
+id
+relop
+num
+)
+{
+id
+assign
+num
+;
+}
+--------------------------------------------------------------------------
+this input file belongs to given grammar.
