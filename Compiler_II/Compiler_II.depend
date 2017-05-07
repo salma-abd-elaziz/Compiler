@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1493142966 source:/media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/main.cpp
+	"headers.h"
+
+1493129903 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/headers.h
+	<iostream>
+	<string>
+	<regex>
+	<map>
+	<vector>
+	<sstream>
+	<fstream>
+	<stack>
+	<string.h>
+	<set>
+	<iterator>
+	<algorithm>
+	<iomanip>
+	"SubsetConstruction.h"
+	"DFAMinimization.h"
+	"test_input.h"
+	"Table_Calulations.h"
+	"handle_grammar.h"
+	"parser.h"
+
+1490714349 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/SubsetConstruction.h
+	<queue>
+	<stack>
+	<algorithm>
+	"ThompsonConstruction.h"
+
+1492754953 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/ThompsonConstruction.h
+	<iostream>
+	<fstream>
+	<vector>
+	<map>
+	<regex>
+	<set>
+
+1492527938 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/DFAMinimization.h
+
+1493111028 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/test_input.h
+
+1493183565 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/Table_Calulations.h
+
+1493188512 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/parser.h
+
+1490718631 source:/media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/SubsetConstruction.cpp
+	"SubsetConstruction.h"
+	<iostream>
+
+1493062030 source:/media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/ThompsonConstruction.cpp
+	"ThompsonConstruction.h"
+
+1493182347 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/handle_grammar.h
+

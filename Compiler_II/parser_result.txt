@@ -1,0 +1,95 @@
+			Predective Parsing Table
+			------------------------
+	** Mapping :
+	   ---------
+---------------------------    -----------------
+Name    original               Name    original
+---------------------------    -----------------
+A   	METHOD_BODY            a       $       
+B   	STATEMENT_LIST         b       (       
+C   	STATEMENT              c       )       
+D   	DECLARATION            d       ;       
+E   	PRIMITIVE_TYPE         e       addop   
+F   	IF                     f       assign  
+G   	WHILE                  g       else    
+H   	ASSIGNMENT             h       float   
+I   	EXPRESSION             i       id      
+J   	EXPRESSION'            j       if      
+K   	SIMPLE_EXPRESSION      k       int     
+L   	TERM                   l       mulop   
+M   	FACTOR                 m       num     
+N   	STATEMENT_LIST'        n       relop   
+O   	SIMPLE_EXPRESSION'     o       while   
+P   	TERM'                  p       {       
+Q   	SYNCH                  q       }       
+---------------------------    -----------------
+	** Table :
+	   -------
+------------------------------------------------------------------------------------------------------------------------
+   a   b     c   d   e       f        g      h       i      j             k     l       m     n       o         p   q   
+------------------------------------------------------------------------------------------------------------------------
+A  Q                                         B       B      B             B                           B                 
+B  Q                                         CN      CN     CN            CN                          CN                
+C  Q                                         D       H      F             D                           G             Q   
+D  Q                                         Eid     Q      Q             Eid                         Q             Q   
+E                                            h       Q                    k                                             
+F  Q                                         Q       Q      jbIcpCqgpCq   Q                           Q             Q   
+G  Q                                         Q       Q      Q             Q                           obIcpCq       Q   
+H  Q                                         Q       ifId   Q             Q                           Q             Q   
+I      KJ    Q   Q   KJ                              KJ                                 KJ                              
+J                                                                                             nK                        
+K      LO    Q   Q   eLO                             LO                                 LO    Q                         
+L      MP    Q   Q   Q                               MP                                 MP    Q                         
+M      bIc   Q   Q   Q                               i                          Q       m     Q                         
+N                                            CN      CN     CN            CN                          CN                
+O                    eLO                                                                                                
+P                                                                               lMP                                     
+------------------------------------------------------------------------------------------------------------------------
+
+			Leftmost Derivation
+			-------------------
+METHOD_BODY -> STATEMENT_LIST 
+STATEMENT_LIST -> STATEMENT STATEMENT_LIST' 
+STATEMENT -> DECLARATION 
+DECLARATION -> PRIMITIVE_TYPE id ; 
+PRIMITIVE_TYPE -> int 
+STATEMENT_LIST' -> STATEMENT STATEMENT_LIST' 
+STATEMENT -> ASSIGNMENT 
+ASSIGNMENT -> id assign EXPRESSION ; 
+EXPRESSION -> SIMPLE_EXPRESSION EXPRESSION' 
+SIMPLE_EXPRESSION -> TERM SIMPLE_EXPRESSION' 
+TERM -> FACTOR TERM' 
+FACTOR -> num 
+TERM' -> \L
+SIMPLE_EXPRESSION' -> \L
+EXPRESSION' -> \L
+STATEMENT_LIST' -> STATEMENT STATEMENT_LIST' 
+STATEMENT -> IF 
+IF -> if ( EXPRESSION ) { STATEMENT } else { STATEMENT } 
+EXPRESSION -> SIMPLE_EXPRESSION EXPRESSION' 
+SIMPLE_EXPRESSION -> TERM SIMPLE_EXPRESSION' 
+TERM -> FACTOR TERM' 
+FACTOR -> id 
+TERM' -> \L
+SIMPLE_EXPRESSION' -> \L
+EXPRESSION' -> relop SIMPLE_EXPRESSION 
+SIMPLE_EXPRESSION -> TERM SIMPLE_EXPRESSION' 
+TERM -> FACTOR TERM' 
+FACTOR -> num 
+TERM' -> \L
+SIMPLE_EXPRESSION' -> \L
+STATEMENT -> ASSIGNMENT 
+ASSIGNMENT -> id assign EXPRESSION ; 
+EXPRESSION -> SIMPLE_EXPRESSION EXPRESSION' 
+SIMPLE_EXPRESSION -> TERM SIMPLE_EXPRESSION' 
+TERM -> FACTOR TERM' 
+FACTOR -> num 
+TERM' -> \L
+SIMPLE_EXPRESSION' -> \L
+EXPRESSION' -> \L
+Missing 'else', inserted.
+Missing '{', inserted.
+Illegal 'STATEMENT', discarded.
+Missing '}', inserted.
+STATEMENT_LIST' -> \L
+Parsing is done.
