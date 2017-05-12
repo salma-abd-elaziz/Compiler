@@ -54,6 +54,7 @@
 
 1493182347 /media/shadwa/F8E65BDAE65B97A8/clg/CSED~~3/Term 2/Compilers/Project/Compiler_II/handle_grammar.h
 
+<<<<<<< HEAD
 1493142966 source:/home/salma/Desktop/Compiler_II_1_26_27_29/Compiler_II/main.cpp
 	"headers.h"
 
@@ -109,3 +110,5 @@
 1493062030 source:/home/salma/Desktop/Compiler_II_1_26_27_29/Compiler_II/ThompsonConstruction.cpp
 	"ThompsonConstruction.h"
 
+=======
+>>>>>>> ea6fb89161947f15c7540da042f545c78ee98687

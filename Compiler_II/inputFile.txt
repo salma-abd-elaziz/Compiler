@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 int  count ;
 while (pass != 10)  {
 pass = pass + 1 ;
@@ -8,3 +9,11 @@ count = count + 1.234;
 else{
 sum = sum + mnt;
 }
+=======
+int x;
+x = 5;
+if (x > 2)
+{
+	x = 0;
+}
+>>>>>>> ea6fb89161947f15c7540da042f545c78ee98687
